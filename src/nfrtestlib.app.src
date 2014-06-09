@@ -1,0 +1,11 @@
+{application, nfrtestlib,
+ [
+  {description, "Library PBT testing non-functional requirements"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
